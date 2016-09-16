@@ -7,6 +7,6 @@ export class MyProjectFrontendPage {
   }
 
   getHeaderText() {
-    return element(by.id('Mein Name')).getText();
+    return element(by.id('MeinName')).getText();
   }
 }

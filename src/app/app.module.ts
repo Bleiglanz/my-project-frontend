@@ -12,12 +12,12 @@ import { ControlComponent } from './control/control.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     HeaderComponent,
     LeftComponent,
     ContentComponent,
     FooterComponent,
-    ControlComponent
+    ControlComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +25,8 @@ import { ControlComponent } from './control/control.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

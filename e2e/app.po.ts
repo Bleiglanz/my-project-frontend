@@ -1,11 +1,12 @@
 import { browser, element, by } from 'protractor/globals';
 
 export class MyProjectFrontendPage {
+
   navigateTo() {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getHeaderText() {
+    return element(by.id('Mein Name')).getText();
   }
 }

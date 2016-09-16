@@ -7,8 +7,8 @@ describe('my-project-frontend App', function() {
     page = new MyProjectFrontendPage();
   });
 
-  it('should display message saying app works', () => {
+  it('Header ist mein Name', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getHeaderText()).toEqual("Anton's Seite");
   });
 });
